@@ -1,4 +1,4 @@
-public class searchBST {
+public class search_BST1 {
     public TreeNode searchBST(TreeNode root, int val) {
         if (root == null || root.val == val)
             return root;
