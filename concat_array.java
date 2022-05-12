@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class concat_array {
     public int[] getConcatenation(int[] nums) {
         int l = nums.length;
