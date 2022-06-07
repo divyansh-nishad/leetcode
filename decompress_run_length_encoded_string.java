@@ -1,13 +1,12 @@
+import java.util.*;
+
 public class decompress_run_length_encoded_string {
-    public int[] decompressRLElist(int[] nums) 
-    {
-        List<Integer> li=new ArrayList<Integer>();
-        for(int i=0;i<nums.length;i+=2)
-        {
-            int f=nums[i];
-            int val=nums[i+1];
-            while(f!=0)
-            {
+    public int[] decompressRLElist(int[] nums) {
+        List<Integer> li = new ArrayList<Integer>();
+        for (int i = 0; i < nums.length; i += 2) {
+            int f = nums[i];
+            int val = nums[i + 1];
+            while (f != 0) {
                 li.add(val);
                 f--;
             }
@@ -17,5 +16,5 @@ public class decompress_run_length_encoded_string {
             arr[i] = li.get(i);
         return arr;
     }
-    
+
 }
