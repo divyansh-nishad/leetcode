@@ -1,3 +1,5 @@
+import java.util.*;
+
 public class self_dividing_numbers {
     public List<Integer> selfDividingNumbers(int left, int right) {
         List<Integer> res = new ArrayList<>();
