@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 public class sort_integer_by_no_of_1_bits {
     public int[] sortByBits(int[] arr) {
         int n = arr.length, res[] = new int[n];
