@@ -1,4 +1,4 @@
-public class Minimum_time_to_make_rope_colorful {
+public class minimum_time_to_make_rope_colorful {
     public int minCost(String colors, int[] neededTime) {
         int l = colors.length();
         int min = 0;
