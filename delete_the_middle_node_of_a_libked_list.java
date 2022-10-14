@@ -11,4 +11,21 @@ public class delete_the_middle_node_of_a_libked_list {
         return head;
     }
 
+    public class ListNode {
+        int val;
+        ListNode next;
+
+        ListNode() {
+        }
+
+        ListNode(int val) {
+            this.val = val;
+        }
+
+        ListNode(int val, ListNode next) {
+            this.val = val;
+            this.next = next;
+        }
+
+    }
 }
