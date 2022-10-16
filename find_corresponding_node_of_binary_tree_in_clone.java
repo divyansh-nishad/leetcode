@@ -7,5 +7,23 @@ public class find_corresponding_node_of_binary_tree_in_clone {
             return res;
         return getTargetCopy(original.right, cloned.right, target);
     }
+    public class TreeNode {
+        int val;
+        TreeNode left;
+        TreeNode right;
+
+        TreeNode() {
+        }
+
+        TreeNode(int val) {
+            this.val = val;
+        }
+
+        TreeNode(int val, TreeNode left, TreeNode right) {
+            this.val = val;
+            this.left = left;
+            this.right = right;
+        }
+    }
 
 }
