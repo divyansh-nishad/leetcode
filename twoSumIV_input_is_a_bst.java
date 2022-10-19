@@ -1,3 +1,5 @@
+import java.util.*;
+
 public class twoSumIV_input_is_a_bst {
     private boolean helper(TreeNode root, HashSet<Integer> hs, int k) {
         if (root == null)
@@ -15,4 +17,22 @@ public class twoSumIV_input_is_a_bst {
 
     }
 
+    public class TreeNode {
+        int val;
+        TreeNode left;
+        TreeNode right;
+
+        TreeNode() {
+        }
+
+        TreeNode(int val) {
+            this.val = val;
+        }
+
+        TreeNode(int val, TreeNode left, TreeNode right) {
+            this.val = val;
+            this.left = left;
+            this.right = right;
+        }
+    }
 }
