@@ -1,4 +1,4 @@
-import java.util.Collections;
+import java.util.*;
 
 public class sum3_closest {
     public int threeSumClosest(int[] nums, int target) {
