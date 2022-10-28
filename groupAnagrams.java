@@ -1,4 +1,4 @@
-public class groupAnagrams {
+public class GroupAnagrams {
     public List<List<String>> groupAnagrams(String[] strs) {
         String[] alt = Arrays.copyOf(strs, strs.length);
         for (int i = 0; i < strs.length; i++) {
