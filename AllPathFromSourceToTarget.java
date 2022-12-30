@@ -9,7 +9,8 @@ public class AllPathFromSourceToTarget {
         return res;
     }
 
-    private void dfsSearch(int[][] graph, int node, List<List<Integer>> res, List<Integer> path) {
+    private void dfsSearch(int[][] graph, int node, List<List<Integer>> res, List<Integer> path) 
+    {
         if (node == graph.length - 1) {
             res.add(new ArrayList<Integer>(path));
             return;
