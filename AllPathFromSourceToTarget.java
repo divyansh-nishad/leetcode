@@ -1,3 +1,5 @@
+import java.util.*;
+
 public class AllPathFromSourceToTarget {
     public List<List<Integer>> allPathsSourceTarget(int[][] graph) {
         List<List<Integer>> res = new ArrayList<>();
@@ -9,8 +11,7 @@ public class AllPathFromSourceToTarget {
         return res;
     }
 
-    private void dfsSearch(int[][] graph, int node, List<List<Integer>> res, List<Integer> path) 
-    {
+    private void dfsSearch(int[][] graph, int node, List<List<Integer>> res, List<Integer> path) {
         if (node == graph.length - 1) {
             res.add(new ArrayList<Integer>(path));
             return;
