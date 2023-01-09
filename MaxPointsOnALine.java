@@ -1,3 +1,4 @@
+import java.util.*;
 public class MaxPointsOnALine {
     public int maxPoints(int[][] points) {
         int max = 0;
