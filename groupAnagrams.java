@@ -1,3 +1,5 @@
+import java.util.*;
+
 public class GroupAnagrams {
     public List<List<String>> groupAnagrams(String[] strs) {
         String[] alt = Arrays.copyOf(strs, strs.length);
