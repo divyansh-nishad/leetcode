@@ -1,4 +1,4 @@
-public class Nth-TribonacciNumber
+public class NthTribonacciNumber
 {
 
     public int tribonacci(int n) {
