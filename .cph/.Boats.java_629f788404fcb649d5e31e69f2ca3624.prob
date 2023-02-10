@@ -1,0 +1,1 @@
+{"name":"Local: Boats","url":"d:\\GitHub\\leetcode\\Boats.java","tests":[{"id":1676020621227,"input":"4 3\n3 2 2 1","output":"3"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\GitHub\\leetcode\\Boats.java","group":"local","local":true}
