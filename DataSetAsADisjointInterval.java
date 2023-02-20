@@ -1,3 +1,4 @@
+import java.util.*;
 public class DataSetAsADisjointInterval {
     private Set<Integer> values;
 
