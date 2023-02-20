@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 public class BestTeamWithNoConflicts {
     int res = 0;
 
