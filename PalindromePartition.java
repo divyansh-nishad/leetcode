@@ -1,3 +1,5 @@
+import java.util.*;
+
 public class PalindromePartition {
     public List<List<String>> partition(String s) {
         List<List<String>> ans = new ArrayList<>();
