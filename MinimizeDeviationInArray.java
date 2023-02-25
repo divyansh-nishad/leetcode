@@ -1,3 +1,5 @@
+import java.util.*;
+
 public class MinimizeDeviationInArray {
     public int minimumDeviation(int[] nums) {
         int min = Integer.MAX_VALUE;
