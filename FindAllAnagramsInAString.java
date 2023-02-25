@@ -1,3 +1,5 @@
+import java.util.*;
+
 public class FindAllAnagramsInAString {
     public List<Integer> findAnagrams(String s, String p) {
         ArrayList<Integer> soln = new ArrayList<Integer>();
