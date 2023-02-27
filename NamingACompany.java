@@ -1,3 +1,5 @@
+import java.util.*;
+
 public class NamingACompany {
     public long distinctNames(String[] ideas) {
         Set<String>[] count = new Set[26];
