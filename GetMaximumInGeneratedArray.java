@@ -12,7 +12,7 @@ public class GetMaximumInGeneratedArray {
             max = Math.max(max, arr[i]);
         }
 
-        // return max;
+        return max;
     }
 
 }
