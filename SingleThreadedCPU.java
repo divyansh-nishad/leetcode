@@ -1,3 +1,4 @@
+import java.util.*;
 public class SingleThreadedCPU {
     public int[] getOrder(int[][] tasks) {
         int n = tasks.length;
