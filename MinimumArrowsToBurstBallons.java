@@ -1,3 +1,4 @@
+import java.util.*;
 public class MinimumArrowsToBurstBallons {
     public int findMinArrowShots(int[][] segments) {
         Arrays.sort(segments, (a, b) -> Integer.compare(a[1], b[1]));
