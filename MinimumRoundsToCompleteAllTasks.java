@@ -1,3 +1,4 @@
+import java.util.*;
 public class MinimumRoundsToCompleteAllTasks {
     public int minimumRounds(int[] A) {
         HashMap<Integer, Integer> count = new HashMap<>();
