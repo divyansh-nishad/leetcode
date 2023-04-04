@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 public class SuccesfulPairsOfSellsAndPotions {
     public int valid_pos(int[] potions, long success, int spell) {
         long potion_needed = (success + spell - 1) / spell;
