@@ -1,3 +1,5 @@
+import java.util.Stack;
+
 public class SimplifyPath {
     public String simplifyPath(String path) {
         Stack<String> stack = new Stack<>();
