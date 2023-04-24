@@ -1,3 +1,6 @@
+import java.util.ArrayList;
+import java.util.List;
+
 public class PermutationSequence {
     public String getPermutation(int n, int k) {
         int fact = 1;
