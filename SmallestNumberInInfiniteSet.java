@@ -1,3 +1,4 @@
+import java.util.Arrays;
 public class SmallestNumberInInfiniteSet {
     int arr[] = new int[1001];
 
