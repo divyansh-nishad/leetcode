@@ -1,3 +1,5 @@
+import java.util.Stack;
+
 public class RemovingStarsFromAString {
     public String removeStars(String s) {
         Stack<Character> stack = new Stack();
