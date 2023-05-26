@@ -14,6 +14,6 @@ public class New21Game {
                 Wsum -= dp[i - W];
         }
         return res;
-    }   
+    }
 
 }
