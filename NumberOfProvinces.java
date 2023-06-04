@@ -1,3 +1,5 @@
+import java.util.ArrayList;
+
 public class NumberOfProvinces {
     private int count = 0;
 
