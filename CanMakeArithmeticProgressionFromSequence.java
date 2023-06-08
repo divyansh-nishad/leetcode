@@ -1,3 +1,6 @@
+import java.util.HashSet;
+import java.util.Set;
+
 public class CanMakeArithmeticProgressionFromSequence {
     public boolean canMakeArithmeticProgression(int[] arr) {
         Set<Integer> seen = new HashSet<>();
