@@ -1,3 +1,6 @@
+import java.util.HashMap;
+import java.util.Map;
+
 public class FruitsIntoBasket {
     public int totalFruit(int[] fruits) {
         Map<Integer, Integer> hm = new HashMap<Integer, Integer>();
