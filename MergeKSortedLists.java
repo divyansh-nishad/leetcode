@@ -1,3 +1,5 @@
+import java.util.PriorityQueue;
+
 public class MergeKSortedLists {
     public ListNode mergeKLists(ListNode[] lists) {
         PriorityQueue<ListNode> minHeap = new PriorityQueue<>((o1, o2) -> o1.val - o2.val);
