@@ -9,6 +9,7 @@ public class contains_duplicate {
             } else
                 hm.put(nums[i], 1);
         }
+        
         return false;
     }
 }
