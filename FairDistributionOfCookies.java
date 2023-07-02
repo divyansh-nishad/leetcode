@@ -1,3 +1,4 @@
+import java.util.*;
 public class FairDistributionOfCookies {
     int ans = Integer.MAX_VALUE;
 
