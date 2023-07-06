@@ -1,4 +1,4 @@
-public class LongestSubarrayOf!AfterDeleting {
+public class LongestSubarrayOf1AfterDeleting {
     public int longestSubarray(int[] nums) {
         int n = nums.length;
 
