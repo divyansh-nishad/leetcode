@@ -1,3 +1,7 @@
+import java.util.Arrays;
+import java.util.LinkedList;
+import java.util.Queue;
+
 public class IsBipartiteGraph {
     public boolean isBipartite(int[][] graph) {
         int n = graph.length;
