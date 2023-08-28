@@ -1,3 +1,8 @@
+import java.util.HashSet;
+import java.util.LinkedList;
+import java.util.List;
+import java.util.Set;
+
 public class KeysAndRooms {
     public boolean canVisitAllRooms(List<List<Integer>> rooms) {
         int n = rooms.size();
