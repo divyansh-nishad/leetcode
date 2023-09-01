@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 public class MinimumCostForTickets {
     public int mincostTickets(int[] days, int[] costs) {
         int n = days.length;
