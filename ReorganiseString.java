@@ -1,3 +1,6 @@
+import java.util.HashMap;
+import java.util.PriorityQueue;
+
 public class ReorganiseString {
     public String reorganizeString(String s) {
         HashMap<Character, Integer> freqMap = new HashMap<>();
