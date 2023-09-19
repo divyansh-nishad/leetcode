@@ -2,7 +2,6 @@ import java.util.List;
 
 public class Triangle {
     public int minimumTotal(List<List<Integer>> triangle) {
-        int min = Integer.MAX_VALUE;
         int n = triangle.size();
         int front[] = new int[n];
         for (int i = 0; i < n; i++) {
