@@ -1,3 +1,7 @@
+import java.util.ArrayList;
+import java.util.LinkedList;
+import java.util.Queue;
+
 public class CourseSchedule {
     public boolean canFinish(int v, int[][] adj) {
         int[] in = new int[v];
