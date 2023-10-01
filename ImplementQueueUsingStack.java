@@ -1,3 +1,5 @@
+import java.util.Stack;
+
 public class ImplementQueueUsingStack {
     Stack<Integer> input = new Stack();
     Stack<Integer> output = new Stack();
