@@ -1,3 +1,9 @@
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.HashSet;
+import java.util.List;
+import java.util.Set;
+
 public class MaximalNetwrokRank {
     class Solution {
         public int maximalNetworkRank(int n, int[][] roads) {
