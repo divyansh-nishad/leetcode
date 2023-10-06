@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 public class MaximumIcecreamBars {
     public int maxIceCream(int[] A, int coins) {
         Arrays.sort(A);
