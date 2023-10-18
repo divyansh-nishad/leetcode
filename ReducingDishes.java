@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 public class ReducingDishes {
     public int maxSatisfaction(int[] satisfaction) {
         Arrays.sort(satisfaction);
