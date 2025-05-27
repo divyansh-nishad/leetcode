@@ -1,28 +1,32 @@
 import java.util.*;
 
-public class CombinationSumII {
-    public List<List<Integer>> combinationSum2(int[] nums, int target) {
-        List<List<Integer>> list = new ArrayList<>();
-        Arrays.sort(nums);
-        backtrack(list, new ArrayList<>(), nums, target, 0);
-        return list;
-
+class Solution {
+    public List<List<Integer>> combinationSum2(int[] candidates, int target) {
+        List<Integer> list = new ArrayList<>();
+        Set<List<Integer>> ans = new HashSet<>();
+        Arrays.sort(candidates);
+        helper(0, candidates, target, list, ans);
+        return new ArrayList<>(ans);
     }
-
-    private void backtrack(List<List<Integer>> list, List<Integer> tempList, int[] nums, int remain, int start) {
-        if (remain < 0)
+    private void helper(int i, int[] arr, int target, List<Integer> list, Set<List<Integer>> ans)
+    {
+        if (target == 0)
+        {
+            ans.add(new ArrayList<>(list));
             return;
-        else if (remain == 0)
-            list.add(new ArrayList<>(tempList));
-        else {
-            for (int i = start; i < nums.length; i++) {
-                if (i > start && nums[i] == nums[i - 1])
-                    continue;
-                tempList.add(nums[i]);
-                backtrack(list, tempList, nums, remain - nums[i], i + 1);
-                tempList.remove(tempList.size() - 1);
-            }
         }
-    }
+        for(int j=i;j<arr.length;j++)
+        {
+            if(j>i && arr[j] == arr[j-1])
+                continue;
 
+            if(arr[i]>target)
+                break;
+
+            list.add(arr[j]);
+            helper(j+1, arr, target-arr[j], list, ans);
+            list.remove(list.size()-1);
+        }
+
+    }
 }
